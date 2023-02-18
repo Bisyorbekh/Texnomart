@@ -1,0 +1,161 @@
+.home{
+    width: 100%;
+    min-height: 100vh;
+}
+.swiper_image{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.ommabob{
+    padding: 30px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+}
+.card{
+    width: 15.8%;
+    height: 350px;
+    margin-left: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #0e0d0d33;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.card:hover{
+    box-shadow: 0 0 10px #02020296;
+}
+.card img{
+   width: 95%;
+   padding: 15px; 
+   height: 220px;
+   margin-left: 5px;
+   object-fit: contain;
+}
+.card_title{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.price{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.savat_btn{
+    width: 150px;
+    height: 40px;
+    background-color: #FBC100;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.banner{
+    width: 96%;
+    height: 400px;
+    background-color: #F7F7F7;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+    display: flex;
+}
+.banner_left{
+    margin-top: -15px;
+    margin-left: 70px;
+}
+.banner_right h1{
+    font-size: 35px;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.banner_right p{
+    font-size: 18px;
+    padding-left: 150px;
+    padding-top: 20px;
+    width: 85%;
+    color: #333333;
+}
+.banner_right img{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.banner2{
+    width: 100%;
+    height: 350px;
+    margin-top: 80px;
+}
+.texnika{
+    font-size: 25px;
+    color: #333333;
+    text-align: center;
+}
+
+.muddatli{
+    width: 95%;
+    height: 250px;
+    border: 1px solid #ECECEC;
+    margin-left: 30px;
+    margin-top: 25px;
+    display: flex;
+    border-radius: 5px;
+}
+.cardi{
+    width: 20%;
+    height: 100%;
+    border: 1px solid #ECECEC;
+}
+.cardi img{
+    margin-left: 95px;
+    margin-top: 40px;
+}
+.tolov{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+.qulay{
+    text-align: center;
+    width: 90%;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+.deliver_con{
+    padding: 40px;
+    min-height: 10vh;
+}
+.deliver_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.deliver_item{
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+.deliver_item img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.deliver_item h3{
+    padding-top: 10px;
+}
+.data_del{
+    width: 80px;
+    height: 30px;
+    background-color: crimson;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}

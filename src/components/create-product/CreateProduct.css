@@ -1,0 +1,30 @@
+.create_product{
+    width: 400px;
+    height: 350px;
+    background-color: #eeeeee;
+    margin-left: 450px;
+    text-align: center;
+    margin-top: 50px;
+}
+.titttle{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 20px; 
+}
+.create_product input{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border: 2px solid #FBC100;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.create_product button{
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: #FBC100;
+    border: none;
+}
