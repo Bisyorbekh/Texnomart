@@ -4,7 +4,7 @@ import { BiMicrophone, BiSearch, BiPackage } from "react-icons/bi"
 import { BsPerson } from "react-icons/bs"
 import { FaBalanceScaleLeft } from "react-icons/fa"
 import { AiOutlineShoppingCart } from "react-icons/ai"
-import { HiOutlineSquares2X2 } from "react-icons/hi2"
+// import { HiOutlineSquares2X2 } from "react-icons/hi2"
 import { FiHeart } from "react-icons/fi"
 import { Link } from "react-router-dom"
 import texnomart from "../../assets/texnomart.svg"
@@ -49,7 +49,7 @@ function Navbar() {
         </div>
 
       <div className={s.nav_bottom}>
-        <button className={s.katalog}><HiOutlineSquares2X2/> Katalog </button>
+        <button className={s.katalog}> Katalog </button>
         <p className={s.aksiyalar}>🔥 AKSIYALAR SMARTFONLAR MUZLATGICHLAR СHANGYUTGICHLAR</p>
         <p className={s.sovutgichlar}>XAVO SOVUTGICHLAR</p>
         <p className={s.notbuk}>NOUTBUKLAR</p>
